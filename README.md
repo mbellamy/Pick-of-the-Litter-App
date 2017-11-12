@@ -17,19 +17,31 @@ To retrieve a list of litter objects nearby, a GET request is sent to the backen
 Backend created using Java connecting to MySQL DB.
 ##### iOS
 iOS application created using Swift 3. 
+
 Third-Party Libraries
+
 -AlamoFire
+
 -ObjectMapper
+
 *Third-Party Libraries added using CocoaPods.
+
 ##### Android
 Android application created using Java.
+
 Third-Party Libraries
+
 -Retrofit2
+
 *Third-Party Libraries added using gradle.
 
 ##### Hosting
+
 Heroku
+
 1and1
+
 App Store
+
 Play Store
 
