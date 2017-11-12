@@ -42,18 +42,30 @@ Third-Party Libraries
 
 ###### Technologies
 MySQL.
+
 Java.
+
 Swift.
+
 Angular.
+
 Typescript.
+
 HTML.
+
 CSS.
+
 RESTful API.
+
 CocoaPods.
+
 Gradle.
+
 ###### Applications
 Android Studio.
+
 XCode.
+
 MySql Workbench.
 
 
