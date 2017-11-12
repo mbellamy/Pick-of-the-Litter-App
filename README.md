@@ -1,5 +1,5 @@
 # Pick of the Litter
-https://pick-of-the-litter.firebaseapp.com/.
+https://pick-of-the-litter.firebaseapp.com/
 
 Pick of the Litter is an app that was created to assist in beautifying your surroundings.  If you spot litter that you cannot dispose of immediately, you can take a picture and post it for others in your area to assist with the clean up.  You are able to mark litter as cleaned from the app.  We are on the honesty system as there is no verification that you actually cleaned the litter.
 
