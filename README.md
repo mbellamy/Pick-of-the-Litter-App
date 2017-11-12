@@ -40,7 +40,7 @@ Third-Party Libraries
 *Third-Party Libraries added using gradle.
 
 
-###### Technologies
+### Technologies
 MySQL.
 
 Java.
@@ -61,7 +61,7 @@ CocoaPods.
 
 Gradle.
 
-###### Applications
+### Applications
 Android Studio.
 
 XCode.
