@@ -15,6 +15,8 @@ To retrieve a list of litter objects nearby, a GET request is sent to the backen
 ## What's involved
 ### Backend
 Backend created using Java connecting to MySQL DB.
+### Frontend
+Angular 4 application.
 ### iOS
 iOS application created using Swift 3. 
 
@@ -35,13 +37,5 @@ Third-Party Libraries
 
 *Third-Party Libraries added using gradle.
 
-### Hosting
 
-Heroku
-
-1and1
-
-App Store
-
-Play Store
 
