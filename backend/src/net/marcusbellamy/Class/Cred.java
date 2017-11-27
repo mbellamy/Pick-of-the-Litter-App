@@ -16,10 +16,10 @@ public class Cred {
   public Cred() {
     super();
     // TODO Auto-generated constructor stub
-    this.apiKey = "apiKey";
-    this.usr = "root";
-    this.pas = "Password.2017!";
-    this.url = "jdbc:mysql://74.208.112.112:3306/";
+    this.apiKey = "xx";
+    this.usr = "xxx";
+    this.pas = "xx";
+    this.url = "xxx";
   }
   /**
    * @return the usr
