@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="40cc9ae0-8408-4ffd-9cf3-487a0abbfa92" name="drive" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="$USER_HOME$/Desktop/drive" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

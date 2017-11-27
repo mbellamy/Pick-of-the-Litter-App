@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="litter-backend:war exploded">
+    <output-path>$USER_HOME$/Desktop/drive</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="litter-backend/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="litter-backend" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.10.RELEASE" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/gson.jar" />
+          <element id="library" level="project" name="mysql-connector-java-6.0.6" />
+          <element id="library" level="project" name="jjwt-0.7.0" />
+          <element id="library" level="project" name="jackson-core-2.9.0.pr4 (2)" />
+          <element id="library" level="project" name="jackson-databind-2.9.0.pr4 (2)" />
+          <element id="library" level="project" name="jackson-annotations-2.9.0.pr4" />
+          <element id="library" level="project" name="commons-fileupload-1.3.3" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
