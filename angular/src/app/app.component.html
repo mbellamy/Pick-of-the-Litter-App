@@ -1,0 +1,132 @@
+<!--<div class="top">-->
+  <!--<h1 class="h1">-->
+    <!--{{title}}-->
+    <!--<small class="h1">Random images of litter around your community.</small>-->
+  <!--</h1>-->
+<!--</div>-->
+<!--<div class="outer">-->
+  <!--<div class="bottom">-->
+    <!--<div *ngIf="currentLitter" class="gallery fill">-->
+      <!--&lt;!&ndash;<a target="_blank" (click)="open(content, currentLitter)" class="center">&ndash;&gt;-->
+      <!--{{address}}-->
+
+      <!--<img class="center" [src]="'data:image/jpg;base64,' + currentLitter.litter_image_url | UnsafePipe" alt="">-->
+      <!--&lt;!&ndash;</a>&ndash;&gt;-->
+      <!--<div class="desc">{{currentLitter.litter_image}}</div>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+<!--<ng-template #content let-c="close" let-d="dismiss">-->
+  <!--<div class="modal-header gallery">-->
+    <!--<h4 class="modal-title">Litter Location</h4>-->
+    <!--<button type="button" class="close" aria-label="Close" (click)="d('Cross click')">-->
+      <!--<span aria-hidden="true">&times;</span>-->
+    <!--</button>-->
+  <!--</div>-->
+  <!--<div class="modal-body gallery">-->
+    <!--<img class="img-lightbox center-block" src="'data:image/jpg;base64,' + currentLitter.litter_image_url | UnsafePipe">-->
+    <!--<small>{{address}}</small>-->
+  <!--</div>-->
+  <!--<div class="modal-footer">-->
+    <!--<button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>-->
+  <!--</div>-->
+<!--</ng-template>-->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : CrossWalk
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20140216
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title></title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
+  <!--<link href="default.css" rel="stylesheet" type="text/css" media="all" />-->
+  <!--<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />-->
+
+  <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+</head>
+<body>
+<div id="wrapper">
+  <div id="header" class="container">
+    <div id="logo">
+      <h1><a href="#">Pick of the Litter</a></h1>
+    </div>
+    <div id="menu">
+      <ul>
+        <li class="current_page_item"><a href="#" accesskey="1" title="">Homepage</a></li>
+        <li><a href="#" accesskey="2" title="">App Store</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=net.marcusbellamy.litter&hl=en" accesskey="3" title="">Play Store</a></li>
+        <li><a href="mailto:arnett.bellamy+litter@gmail.com" accesskey="5" title="">Contact Me</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="banner">&nbsp;</div>
+  <div id="featured">
+    <div class="container">
+      <div class="title">
+        <h2>A helping hand in community cleanliness.</h2>
+        <span class="byline">Alert the community of litter simply by posting an image.</span> </div>
+      <p>This is <strong>Pick of the Litter</strong>, a free, mobile application created with the community in mind.  See a piece of litter that you cannot remove? Cue the community.  Post a picture of the litter with <strong>Pick of the Litter</strong> and watch the community swoop in to assist. Simple as that.  When you post a picture of litter it viewable to everyone using the app within 25 miles.  Allowing someone to come and remove the litter in question. </p>
+    </div>
+    <ul class="actions">
+      <li><a href="#" class="button">Try it now!</a></li>
+    </ul>
+  </div>
+  <div id="extra" class="container">
+    <div class="title">
+      <h2>Pick of the Litter</h2>
+      <span class="byline">SFW let's keep it clean.</span> </div>
+    <div id="three-column">
+      <div class="boxA">
+        <div class="box"> <span class="fa fa-cloud-download"></span>
+          <p>Available on both Apple App Store and Google Play Store.</p>
+        </div>
+      </div>
+      <div class="boxB">
+        <div class="box"> <span class="fa fa-cogs"></span>
+          <p>Location-based crowd sourced litter removal tool.</p>
+        </div>
+      </div>
+      <div class="boxC">
+        <div class="box"> <span class="fa fa-user"></span>
+          <p> Create an account and help keep your community clean!</p>
+        </div>
+      </div>
+    </div>
+    <ul class="actions">
+      <li><a href="#" class="button">Get Started</a></li>
+    </ul>
+  </div>
+  <div id="page" class="container">
+    <div class="title">
+      <h2>Random Trash</h2>
+      <span class="byline">Here is a piece of litter that was randomly selected to shame you into using this application.</span> </div>
+    <div class="gallery">
+      <div class="boxA"><img src="./images/pic01.jpg" width="320" height="200" alt="" /></div>
+      <div class="boxB"><img [src]="'data:image/jpg;base64,' + currentLitter.litter_image_url | UnsafePipe" width="320" height="200" alt="" /></div>
+      <div class="boxC"><img src="images/pic03.jpg" width="320" height="200" alt="" /></div>
+    </div>
+    <p>This piece of trash has a home and the ground is not it.  Do your part to reconnect this trash with its home. Be it a trash can, garbage can, dustbin, waste basket, garbage pail, litter basket, dumpster, trash barrel, or a trash receptacle. Just help it find the way. </p>
+    <ul class="actions">
+      <li><a href="#" class="button">Pick it up!</a></li>
+    </ul>
+  </div>
+</div>
+<div id="copyright" class="container">
+  <p>&copy; Pick of the Litter. All rights reserved. | Photos by the Community.</p>
+</div>
+</body>
+</html>
