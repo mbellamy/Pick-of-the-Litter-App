@@ -93,6 +93,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AlamofireImage/AlamofireImage.framework"
   install_framework "$BUILT_PRODUCTS_DIR/AlamofireObjectMapper/AlamofireObjectMapper.framework"
   install_framework "$BUILT_PRODUCTS_DIR/KeyboardHideManager/KeyboardHideManager.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OHHTTPStubs/OHHTTPStubs.framework"
   install_framework "$BUILT_PRODUCTS_DIR/ObjectMapper/ObjectMapper.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SDCAlertView/SDCAlertView.framework"
 fi
@@ -101,6 +102,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AlamofireImage/AlamofireImage.framework"
   install_framework "$BUILT_PRODUCTS_DIR/AlamofireObjectMapper/AlamofireObjectMapper.framework"
   install_framework "$BUILT_PRODUCTS_DIR/KeyboardHideManager/KeyboardHideManager.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OHHTTPStubs/OHHTTPStubs.framework"
   install_framework "$BUILT_PRODUCTS_DIR/ObjectMapper/ObjectMapper.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SDCAlertView/SDCAlertView.framework"
 fi

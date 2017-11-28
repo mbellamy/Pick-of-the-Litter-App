@@ -7,6 +7,19 @@ PODS:
     - ObjectMapper (~> 2.0)
   - KeyboardHideManager (1.1.0)
   - ObjectMapper (2.2.6)
+  - OHHTTPStubs/Core (6.0.0)
+  - OHHTTPStubs/Default (6.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (6.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (6.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (6.0.0)
+  - OHHTTPStubs/Swift (6.0.0):
+    - OHHTTPStubs/Default
   - SDCAlertView (7.1.2)
 
 DEPENDENCIES:
@@ -14,6 +27,7 @@ DEPENDENCIES:
   - AlamofireImage (~> 3.1)
   - AlamofireObjectMapper (~> 4.0)
   - KeyboardHideManager (~> 1.0)
+  - OHHTTPStubs/Swift
   - SDCAlertView (~> 7.1)
 
 SPEC CHECKSUMS:
@@ -22,8 +36,9 @@ SPEC CHECKSUMS:
   AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
   KeyboardHideManager: 9b7eedd5c39c96e3f0b54a8fc5481c63b76fee16
   ObjectMapper: 042708195cc46c20871cbcbec0453826398273fd
+  OHHTTPStubs: 752f9b11fd810a15162d50f11c06ff94f8e012eb
   SDCAlertView: c39fa91a3aeb5eeba58fe9cea648263b131ff2bf
 
-PODFILE CHECKSUM: e8f9834486e15345eaea2c1ea088c1b678b03a04
+PODFILE CHECKSUM: e5b6872507797b0687f275f8378120baf810b70e
 
 COCOAPODS: 1.2.1

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17428B216C7ECAD299429818 /* Pods_litter_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4B98E3E7ABF2C80F80623B /* Pods_litter_swiftTests.framework */; };
+		2B0AF2311FCDA10B00F8E1D7 /* dbserviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0AF2301FCDA10B00F8E1D7 /* dbserviceTests.swift */; };
 		2B2BB8FA1FB3C874004624A7 /* icons8-broom-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2BB8F81FB3C873004624A7 /* icons8-broom-filled.png */; };
 		2B2BB8FB1FB3C874004624A7 /* icons8-flag-2-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2BB8F91FB3C874004624A7 /* icons8-flag-2-filled.png */; };
 		2B2BB8FD1FB4B11E004624A7 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2BB8FC1FB4B11E004624A7 /* Helper.swift */; };
@@ -52,6 +53,7 @@
 /* Begin PBXFileReference section */
 		024D62487FB44E3F854B6FF0 /* Pods-litter-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-litter-swiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-litter-swiftTests/Pods-litter-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		03511CFF2CAA0EDA59F0A999 /* Pods-litter-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-litter-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-litter-swift/Pods-litter-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		2B0AF2301FCDA10B00F8E1D7 /* dbserviceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dbserviceTests.swift; sourceTree = "<group>"; };
 		2B2BB8F81FB3C873004624A7 /* icons8-broom-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-broom-filled.png"; sourceTree = "<group>"; };
 		2B2BB8F91FB3C874004624A7 /* icons8-flag-2-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-flag-2-filled.png"; sourceTree = "<group>"; };
 		2B2BB8FC1FB4B11E004624A7 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 			children = (
 				CA409D091F422F6000559C1B /* litter_swiftTests.swift */,
 				CA409D0B1F422F6000559C1B /* Info.plist */,
+				2B0AF2301FCDA10B00F8E1D7 /* dbserviceTests.swift */,
 			);
 			path = "litter-swiftTests";
 			sourceTree = "<group>";
@@ -511,6 +514,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA409D0A1F422F6000559C1B /* litter_swiftTests.swift in Sources */,
+				2B0AF2311FCDA10B00F8E1D7 /* dbserviceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
